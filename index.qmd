@@ -1,5 +1,20 @@
 ---
-title: "Hope Hahn"
+title: "HOPE HAHN"
+image: snapseed.jpeg
+toc: false
+about:
+  template: trestles
+  image-shape: rectangle
+  image-width: 20em
+  links: 
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/hope-hahn/
+      icon: linkedin
+    - text: GitHub
+      href: https://github.com/h-hahn
+      icon: github
+    - text: Email
+      href: mailto:hmhahn19@gmail.com
 ---
 
 Hi this is Hope.
