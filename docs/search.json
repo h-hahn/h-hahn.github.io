@@ -14,8 +14,8 @@
     "text": "Hope’s bio."
   },
   {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
+    "objectID": "about.html#hello",
+    "href": "about.html#hello",
     "title": "About",
     "section": "",
     "text": "Hope’s bio."
@@ -33,12 +33,5 @@
     "title": "About",
     "section": "Experience",
     "text": "Experience"
-  },
-  {
-    "objectID": "about.html#hello",
-    "href": "about.html#hello",
-    "title": "About",
-    "section": "",
-    "text": "Hope’s bio."
   }
 ]
