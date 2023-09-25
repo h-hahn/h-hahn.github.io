@@ -1,11 +1,6 @@
 ---
-title: "h-hahn.github.io"
+title: "Hope Hahn"
 ---
 
-This is a Quarto website.
+Hi this is Hope.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
