@@ -1,6 +1,6 @@
 ---
 title: "HOPE HAHN"
-image: snapseed.jpeg
+image: Snapseed.jpeg
 toc: false
 about:
   template: trestles
