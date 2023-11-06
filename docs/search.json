@@ -7,6 +7,13 @@
     "text": "Hi this is Hope."
   },
   {
+    "objectID": "blog/2022-11-06-my-first-post/index.html",
+    "href": "blog/2022-11-06-my-first-post/index.html",
+    "title": "My first blog post",
+    "section": "",
+    "text": "Hi, this is blog post.\n\n\n\nCitationBibTeX citation:@online{hahn2023,\n  author = {Hahn, Hope},\n  title = {My First Blog Post},\n  date = {2023-11-06},\n  url = {https://h-hahn.github.io/blog/2023-11-06-my-first-post},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nHahn, Hope. 2023. “My First Blog Post.” November 6, 2023.\nhttps://h-hahn.github.io/blog/2023-11-06-my-first-post."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -33,5 +40,12 @@
     "title": "About",
     "section": "Experience",
     "text": "Experience"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "blog",
+    "section": "",
+    "text": "My first blog post\n\n\n\nQuarto\n\n\nR\n\n\nMEDS\n\n\n\nthis is my short description\n\n\n\nHope Hahn\n\n\nNov 6, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

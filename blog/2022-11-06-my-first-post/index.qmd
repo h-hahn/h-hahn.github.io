@@ -1,0 +1,16 @@
+---
+title: "My first blog post"
+description: "this is my short description"
+author:
+  - name: Hope Hahn
+    url: https://h-hahn.github.io/
+    affiliation: Master of Environmental Data Science Program
+    affiliation-url: https://ucsb-meds.github.io/
+date: 11-06-2023
+categories: [Quarto, R, MEDS]
+citation:
+  url: https://h-hahn.github.io/blog/2023-11-06-my-first-post
+image: myimage.jpg
+---
+
+Hi, this is blog post.
