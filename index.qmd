@@ -4,7 +4,7 @@ image: hope.jpeg
 toc: false
 about:
   template: trestles
-  image-shape: rectangle
+  image-shape: rounded
   image-width: 20em
   links: 
     - text: LinkedIn
@@ -17,5 +17,19 @@ about:
       href: mailto:hmhahn19@gmail.com
 ---
 
-Hi this is Hope.
+## Hi, my name is Hope! 
+
+I am currently pursuing a Master of Environmental Data Science, and working with Chytrid fungi in the Briggs Lab at UCSB.
+
+## Education
+
+**B.S. in Aquatic Biology** (2022) | University of California, Santa Barbara
+
+**Master of Environmental Data Science** (2024) | University of California, Santa Barbara
+
+## Experience
+
+**Laboratory Technician** (2021 - Present) | Briggs Lab UCSB
+
+
 

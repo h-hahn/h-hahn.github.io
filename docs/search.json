@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "HOPE HAHN",
     "section": "",
-    "text": "Hi this is Hope."
+    "text": "I am currently pursuing a Master of Environmental Data Science, and working with Chytrid fungi in the Briggs Lab at UCSB."
   },
   {
     "objectID": "blog/2022-11-06-my-first-post/index.html",
@@ -18,14 +18,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Hope’s bio."
+    "text": "I am currently pursuing a Master of Environmental Data Science in the Bren School of Environmental Science and Management. I earned my Bachelor’s degree in Aquatic Biology from UC Santa Barbara in 2022, where I became passionate about research with environmental applications. I gained experience working on molecular scales while working with DNA in various disease ecology labs. The results of my laboratory procedures were used to gain a better understanding of patterns and ecological impacts of specific diseases in the environment. This highlighted the importance of understanding data, as laboratory results only have an impact when the data is analyzed properly. To expand my knowledge in data processing, I undertook a senior thesis project that aimed to use citizen science data to analyze patterns between anthropogenic stressors and coral-macroalgal phase shifts on coral reefs globally. As I pursue my Master’s degree and continue to work in the Briggs lab at UCSB, I hope to continue to use my knowledge in data science and biology to improve the quality of ecological research by transforming data into results that will have real-world, environmental applications."
   },
   {
     "objectID": "about.html#hello",
     "href": "about.html#hello",
     "title": "About",
     "section": "",
-    "text": "Hope’s bio."
+    "text": "I currently pursuing a Master of Environmental Data Science in the Bren School of Environmental Science and Management. I earned my Bachelor’s degree in Aquatic Biology from UC Santa Barbara in 2022, where I became passionate about research with environmental applications. I gained experience working on molecular scales while working with DNA in various disease ecology labs. The results of my laboratory procedures were used to gain a better understanding of patterns and ecological impacts of specific diseases in the environment. This highlighted the importance of understanding data, as laboratory results only have an impact when the data is analyzed properly. To expand my knowledge in data processing, I undertook a senior thesis project that aimed to use citizen science data to analyze patterns between anthropogenic stressors and coral-macroalgal phase shifts on coral reefs globally. As I pursue my Master’s degree and continue to work in the Briggs lab at UCSB, I hope to continue to use my knowledge in data science and biology to improve the quality of ecological research by transforming data into results that will have real-world, environmental applications."
   },
   {
     "objectID": "about.html#education",
@@ -44,7 +44,7 @@
   {
     "objectID": "blog.html",
     "href": "blog.html",
-    "title": "blog",
+    "title": "Blog",
     "section": "",
     "text": "ipynb rendered as html\n\n\nThis post was rendered from a .ipynb file through quarto\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMy first blog post\n\n\n\nQuarto\n\n\nR\n\n\nMEDS\n\n\n\nthis is my short description\n\n\n\nHope Hahn\n\n\nNov 6, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
@@ -89,5 +89,33 @@
     "title": "ipynb rendered as html",
     "section": "Access",
     "text": "Access\nWe use the Client function from the pystac_client package to access the catalog:\n\n\nCode\n#access catalog \n\ncatalog = Client.open('https://planetarycomputer.microsoft.com/api/stac/v1',\n                     modifier = planetary_computer.sign_inplace)\n\n\nthe modifier parameter is needed to acces the data in the MPC catalog\n\nExploration\nLets check out some of the catalogs metadata:\n\n\nCode\n#metadata from the catalog \n\nprint('Title', catalog.title)\n\nprint('Description', catalog.description)\n\n\nTitle Microsoft Planetary Computer STAC API\nDescription Searchable spatiotemporal metadata describing Earth science datasets hosted by the Microsoft Planetary Computer\n\n\nWe can use the catalog’s collections by using the get_collections() method:\n\n\nCode\ncatalog.get_collections()\n\n\n&lt;generator object Client.get_collections at 0x17b9c2020&gt;\n\n\nNotice the output of the get_collections() is a generator.\nThis is a special kind of lazy object in the python over which you can loop over like alist. Unlike a list, the items ont he generator do not exist in the memory until you explecitly interate over them or convert them to a list.\n\n\nCode\n# get collections and print their names\ncollections = list(catalog.get_collections())\n\nprint('Number of collections:', len(collections))\nprint(\"Collections IDs:\")\nfor collection in collections:\n    print('-', collection.id)\n\n\nNumber of collections: 122\nCollections IDs:\n- daymet-annual-pr\n- daymet-daily-hi\n- 3dep-seamless\n- 3dep-lidar-dsm\n- fia\n- sentinel-1-rtc\n- gridmet\n- daymet-annual-na\n- daymet-monthly-na\n- daymet-annual-hi\n- daymet-monthly-hi\n- daymet-monthly-pr\n- gnatsgo-tables\n- hgb\n- cop-dem-glo-30\n- cop-dem-glo-90\n- goes-cmi\n- terraclimate\n- nasa-nex-gddp-cmip6\n- gpm-imerg-hhr\n- gnatsgo-rasters\n- 3dep-lidar-hag\n- 3dep-lidar-intensity\n- 3dep-lidar-pointsourceid\n- mtbs\n- noaa-c-cap\n- 3dep-lidar-copc\n- modis-64A1-061\n- alos-fnf-mosaic\n- 3dep-lidar-returns\n- mobi\n- landsat-c2-l2\n- era5-pds\n- chloris-biomass\n- kaza-hydroforecast\n- planet-nicfi-analytic\n- modis-17A2H-061\n- modis-11A2-061\n- daymet-daily-pr\n- 3dep-lidar-dtm-native\n- 3dep-lidar-classification\n- 3dep-lidar-dtm\n- gap\n- modis-17A2HGF-061\n- planet-nicfi-visual\n- gbif\n- modis-17A3HGF-061\n- modis-09A1-061\n- alos-dem\n- alos-palsar-mosaic\n- deltares-water-availability\n- modis-16A3GF-061\n- modis-21A2-061\n- us-census\n- jrc-gsw\n- deltares-floods\n- modis-43A4-061\n- modis-09Q1-061\n- modis-14A1-061\n- hrea\n- modis-13Q1-061\n- modis-14A2-061\n- sentinel-2-l2a\n- modis-15A2H-061\n- modis-11A1-061\n- modis-15A3H-061\n- modis-13A1-061\n- daymet-daily-na\n- nrcan-landcover\n- modis-10A2-061\n- ecmwf-forecast\n- noaa-mrms-qpe-24h-pass2\n- sentinel-1-grd\n- nasadem\n- io-lulc\n- landsat-c2-l1\n- drcog-lulc\n- chesapeake-lc-7\n- chesapeake-lc-13\n- chesapeake-lu\n- noaa-mrms-qpe-1h-pass1\n- noaa-mrms-qpe-1h-pass2\n- noaa-nclimgrid-monthly\n- goes-glm\n- usda-cdl\n- eclipse\n- esa-cci-lc\n- esa-cci-lc-netcdf\n- fws-nwi\n- usgs-lcmap-conus-v13\n- usgs-lcmap-hawaii-v10\n- noaa-climate-normals-tabular\n- noaa-climate-normals-netcdf\n- noaa-climate-normals-gridded\n- aster-l1t\n- cil-gdpcir-cc-by-sa\n- io-lulc-9-class\n- io-biodiversity\n- naip\n- noaa-cdr-sea-surface-temperature-whoi\n- noaa-cdr-ocean-heat-content\n- cil-gdpcir-cc0\n- cil-gdpcir-cc-by\n- noaa-cdr-sea-surface-temperature-whoi-netcdf\n- noaa-cdr-sea-surface-temperature-optimum-interpolation\n- modis-10A1-061\n- sentinel-5p-l2-netcdf\n- sentinel-3-olci-wfr-l2-netcdf\n- noaa-cdr-ocean-heat-content-netcdf\n- sentinel-3-synergy-aod-l2-netcdf\n- sentinel-3-synergy-v10-l2-netcdf\n- sentinel-3-olci-lfr-l2-netcdf\n- sentinel-3-sral-lan-l2-netcdf\n- sentinel-3-slstr-lst-l2-netcdf\n- sentinel-3-slstr-wst-l2-netcdf\n- sentinel-3-sral-wat-l2-netcdf\n- ms-buildings\n- sentinel-3-slstr-frp-l2-netcdf\n- sentinel-3-synergy-syn-l2-netcdf\n- sentinel-3-synergy-vgp-l2-netcdf\n- sentinel-3-synergy-vg1-l2-netcdf\n- esa-worldcover"
+  },
+  {
+    "objectID": "index.html#hi-my-name-is-hope",
+    "href": "index.html#hi-my-name-is-hope",
+    "title": "HOPE HAHN",
+    "section": "",
+    "text": "I am currently pursuing a Master of Environmental Data Science, and working with Chytrid fungi in the Briggs Lab at UCSB."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "HOPE HAHN",
+    "section": "Education",
+    "text": "Education\nB.S. in Aquatic Biology (2022) | University of California, Santa Barbara\nMaster of Environmental Data Science (2024) | University of California, Santa Barbara"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "HOPE HAHN",
+    "section": "Experience",
+    "text": "Experience\nLaboratory Technician (2021 - Present) | Briggs Lab UCSB"
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "coming soon"
   }
 ]
