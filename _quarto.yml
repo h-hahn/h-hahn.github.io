@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Hope Hahn"
-  favicon: logo
+  favicon: logo.jpg
   navbar:
     left:
       - href: index.qmd
