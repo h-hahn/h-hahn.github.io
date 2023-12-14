@@ -9,7 +9,7 @@ author:
 date: 12-10-2023
 categories: [Quarto, R, MEDS]
 citation:
-  url: https://h-hahn.github.io/blog/2023-11-06-my-first-post
+  url: https://h-hahn.github.io/blog/2023-12-10-bias-in-ecology
 format: 
   html: 
     linestretch: 2
