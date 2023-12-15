@@ -2,9 +2,10 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/blog/2023-12-14-tadpoles-and-bd/index.html",
       "/blog/python-notebook-render/2023-12-13-thomas-fire.html",
       "/blog/2023-12-10-bias-in-ecology/index.html",
-      "/blog/2022-11-06-my-first-post/index.html"
+      "/blog/2023-11-06-my-first-post/index.html"
     ]
   }
 ]
