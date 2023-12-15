@@ -1,6 +1,6 @@
 ---
-title: "tadpoles and bd"
-description: ""
+title: "Tadpoles and Bd"
+description: "In this analysis, I begin to explore Bd infection in tadpoles"
 author:
   - name: Hope Hahn
     url: https://h-hahn.github.io/
@@ -153,7 +153,7 @@ ggplot(complete_tadpole, aes(fill = infected, x = site))+
 
 As discussed before, it would be interesting to carry out this analysis again, but with a large sample size, and more individuals of each species. If there is a large enough sample size of infection within each species, I could conduct a t-test or ANOVA to determine if there is also a significant difference in zoospore load across infected individuals of different species. With more sampling evenness across sites, I would also like to look at site as a predictor of infection status as well. If site proves to be a significant indicator in predicting infection, then it would be useful to look at chemical and physical site attributes to potentially understand the relationship between abiotic environmental factors and Bd infection rates. 
 
-Additionally, we could use the data on tadpole infection rates to understand the relationship between mature amphibian infection rates and larval infection rates. 
+Additionally, we could use the data on tadpole infection rates to understand the relationship between mature amphibian infection rates and larval infection rates. After conducting further analysis, we will be able to better understand the role of tadpoles as a vector and reservoir of Bd and better understand how Bd interacts with the environment as a whole. 
 
 ## Data Availability
 
