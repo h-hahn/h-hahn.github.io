@@ -224,7 +224,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <figcaption class="figure-caption">Aerial view of Thomas Fire via NASA</figcaption>
 </figure>
 </div>
-<p>In December 2017, the Thomas Fire spread across Santa Barbara and Ventura counties until January 2018. This fire spread over 281,893 acres, and caused large amounts of damage in these areas. of The following analysis looks at the burn scars of the Thomas fire with false color imagery as well as the Air Quality Index over time; including the time period of the Thomas fire in December 2017. The datasets used in this analysis include: air quality data from the US Environmental Protection Agency, Landsat satellite data, and California fire perimeter data.</p>
+<p>In December 2017, the Thomas Fire was started by a power line in Southern California, and spread across Santa Barbara and Ventura counties until January 2018. This fire spread over 281,893 acres, and caused large amounts of damage in these areas. The following analysis looks at the burn scars of the Thomas fire with false color imagery as well as the Air Quality Index over time; including the time period of the Thomas fire in December 2017. The datasets used in this analysis include: air quality data from the US Environmental Protection Agency, Landsat satellite data, and California fire perimeter data.</p>
 <section id="the-datasets" class="level3">
 <h3 class="anchored" data-anchor-id="the-datasets">The datasets:</h3>
 <p><a href="https://gis.data.ca.gov/datasets/CALFIRE-Forestry::california-fire-perimeters-all-1/about">California Fire Perimeter</a> - A shapefile of fire perimeters in California during 2017. The complete file can be accessed in the CA state geoportal.</p>
@@ -298,10 +298,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co"># remove state name, county name, state code, and county_code columns</span></span>
 <span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>aqi_sb <span class="op">=</span> aqi_sb.drop(columns <span class="op">=</span> [<span class="st">'state_name'</span>, <span class="st">'county_name'</span>, <span class="st">'state_code'</span>, <span class="st">'county_code'</span>])</span>
 <span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. update date column of aqi_sb to be datetime object</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="co"># update date column of aqi_sb to be datetime object</span></span>
 <span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>aqi_sb[<span class="st">'date'</span>] <span class="op">=</span> pd.to_datetime(aqi_sb[<span class="st">'date'</span>]) </span>
 <span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. update the index of aqi_sb to be the date column</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="co"># update the index of aqi_sb to be the date column</span></span>
 <span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>aqi_sb.set_index(<span class="st">'date'</span>, inplace <span class="op">=</span> <span class="va">True</span>)</span>
 <span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a><span class="co"># 5 day rolling window calculation</span></span>
@@ -311,7 +311,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>aqi_sb[<span class="st">'five_day_average'</span>] <span class="op">=</span> aqi_sb.aqi.rolling(<span class="st">'5D'</span>).mean()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>The 2017 and 2018 AQI datasets were read in as two separate objects, so the first step was to combine both of the datasets. Additionally, the column names were not in lower snake case, so, to streamline any next steps, I reassigned column names to lower snake case. We are only analyzing Santa Barbara county to understand the impacts of the Thomas Fire, so it was important to filter for data only in Santa Barbara county. Because we are only looking at one county, the state name, county name, state code, and county codes were unecessary, so they were dropped. The last steps to take were to convert the date column to be a <code>datetime</code> object and to calculate the five day rolling averages.</p>
+<p>The 2017 and 2018 AQI datasets were read in as two separate objects, so the first step was to combine both of the datasets. Additionally, the column names were not in lower snake case, so, to streamline any next steps, I reassigned column names to lower snake case by converting all column names to lowercase and replaced spaces with underscores. We are only analyzing Santa Barbara county to understand the impacts of the Thomas Fire, so it was important to filter for data only in Santa Barbara county. Because we are only looking at one county, the state name, county name, state code, and county codes were unecessary, so they were dropped. The last steps to take were to convert the date column to be a <code>datetime</code> object and to calculate the five day rolling averages of the AQI.</p>
 <p><strong><em>Prepare Landsat &amp; California Fire Perimeter Data</em></strong></p>
 <div class="cell">
 <details>
@@ -326,7 +326,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>thomas_fire <span class="op">=</span> cal_fire[cal_fire[<span class="st">'FIRE_NAME'</span>] <span class="op">==</span> <span class="st">'THOMAS'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
-<p>The preparation for the Landsat and California fire perimeter data was much quicker. The Landsat satellite data had an extra dimension, so I dropped the ‘band’ dimension in order to make it 2D. I then converted the fire perimeter data to have the same CRS as the Landsat data and subsetted the perimeter data to include only the Thomas Fire perimeter.</p>
+<p>The preparation for the Landsat and California fire perimeter data was much quicker. The Landsat satellite data had an extra dimension, so I dropped the ‘band’ dimension in order to make it 2D. I then converted the fire perimeter data to have the same CRS as the Landsat data and subsetted the fire perimeter data to include only the Thomas Fire perimeter.</p>
 </section>
 <section id="visualizations" class="level3">
 <h3 class="anchored" data-anchor-id="visualizations">Visualizations</h3>
