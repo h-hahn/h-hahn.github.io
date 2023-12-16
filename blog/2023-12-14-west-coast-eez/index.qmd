@@ -17,7 +17,7 @@ execute:
   warning: false
   error: false
   message: false
-#image: 
+image: atlanticsalmoncagesite_sstock.jpg
 ---
 
 Find the full analysis and access to the data [here](https://github.com/h-hahn/west-coast-eez)!
