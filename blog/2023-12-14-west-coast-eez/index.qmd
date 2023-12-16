@@ -9,7 +9,7 @@ author:
 date: 12-14-2023
 categories: [Quarto, R, MEDS, GIS]
 citation:
-  url: https://h-hahn.github.io/blog/2023-12-14-aquaculture-eez
+  url: https://h-hahn.github.io/blog/2023-12-14-west-coast-eez
 format: 
   html: 
     code-fold: true
