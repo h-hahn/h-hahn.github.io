@@ -433,8 +433,6 @@ plot2
 #....................turn off plotting device....................
 # once off, you should see your .png file appear in outputs/ folder
 dev.off()
-
-plot2
 ```
 
 #### Here is my final visualization for a publication:
