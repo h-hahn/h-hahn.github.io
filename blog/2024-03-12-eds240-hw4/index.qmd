@@ -533,7 +533,7 @@ Most of the contextualization of my data is in the first two plots with annotati
 
 All graphs are right in the middle of all text. I think this is the first thing that your eyes look at, and then you look around for more information. I think the trends that are on the graphs are the main message, and then the viewer can look at the surrounding text for more context
 
-***Considering Cccessibility***
+***Considering Accessibility***
 
 I tried to add more contrast in the text by bolding and not bolding to make the main text easier to read. Unfortunately, I believe that the colors that I used for the last two plots were not color blind friendly. To make up for this, I used different linetypes for the two groups, so if someone is not able to distinguish the colors, they would be able to distinguish the line types. 
 
