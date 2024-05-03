@@ -1,5 +1,5 @@
 ---
-title: "Tadpoles and Bd"
+title: "Tadpoles as a vector of Batrachochytrium dendrobatidis (Bd)"
 description: "In this analysis, I begin to explore Bd infection in tadpoles"
 author:
   - name: Hope Hahn
