@@ -19,17 +19,8 @@ about:
 
 ## Hi, my name is Hope! 
 
-I am currently pursuing a Master of Environmental Data Science, and working with Chytrid fungi in the Briggs Lab at UCSB.
+Welcome to my little corner of the internet! 
 
-## Education
+I am a recent graduate from UCSB's Bren School of Environmental Science & Management, where I achieved a Master's degree in Environmental Data Science. I am passionate about data driven solutions to environmental problems, and I love biology and research.
 
-**B.S. in Aquatic Biology** (2022) | University of California, Santa Barbara
-
-**Master of Environmental Data Science** (2024) | University of California, Santa Barbara
-
-## Experience
-
-**Laboratory Technician** (2021 - Present) | Briggs Lab UCSB
-
-
-
+Please have a look around to see previous projects I've completed and learn more about me. Enjoy!

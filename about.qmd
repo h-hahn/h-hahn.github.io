@@ -1,7 +1,7 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-I am currently pursuing a Master of Environmental Data Science in the Bren School of Environmental Science and Management. I earned my Bachelor’s degree in Aquatic Biology from UC Santa Barbara in 2022, where I became passionate about research with environmental applications. I gained experience working on molecular scales while working with DNA in various disease ecology labs. The results of my laboratory procedures were used to gain a better understanding of patterns and ecological impacts of specific diseases in the environment. This highlighted the importance of understanding data, as laboratory results only have an impact when the data is analyzed properly. To expand my knowledge in data processing, I undertook a senior thesis project that aimed to use citizen science data to analyze patterns between anthropogenic stressors and coral-macroalgal phase shifts on coral reefs globally. As I pursue my Master’s degree and continue to work in the Briggs lab at UCSB, I hope to continue to use my knowledge in data science and biology to improve the quality of ecological research by transforming data into results that will have real-world, environmental applications.
+I have just completed a Master of Environmental Data Science in the Bren School of Environmental Science & Management. I earned my Bachelor’s degree in Aquatic Biology from UC Santa Barbara in 2022, where I became passionate about research with environmental applications. I gained experience working on molecular scales while working with DNA in various disease ecology labs. The results of my laboratory procedures were used to gain a better understanding of patterns and ecological impacts of diseases in the environment. I hope to continue to use my knowledge in data science and biology to improve the quality of ecological research by transforming data into results that have real-world, environmental applications.
 
-
+![Field work to study Bd in amphibians](frog.JPG){width=50%}
