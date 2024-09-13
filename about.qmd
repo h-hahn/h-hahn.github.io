@@ -4,4 +4,10 @@ title: "About Me"
 
 I have just completed a Master of Environmental Data Science in the Bren School of Environmental Science & Management. I earned my Bachelor’s degree in Aquatic Biology from UC Santa Barbara in 2022, where I became passionate about research with environmental applications. I gained experience working on molecular scales while working with DNA in various disease ecology labs. The results of my laboratory procedures were used to gain a better understanding of patterns and ecological impacts of diseases in the environment. I hope to continue to use my knowledge in data science and biology to improve the quality of ecological research by transforming data into results that have real-world, environmental applications.
 
-![Field work to study Bd in amphibians](frog.JPG){width=50%}
+::: {layout="[[1,1], [1]]"}
+![Sampling invasive bullfrogs](frog.jpg)
+
+![The tiniest Bufo Boreas you will ever see!](toad.jpg)
+
+![The cows are my favorite part about field work](cow.jpg)
+:::
