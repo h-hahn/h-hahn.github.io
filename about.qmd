@@ -6,7 +6,7 @@ title: "About Me"
 
 ## Professional Life
 
-![Photo taken by me during field work](photos/banner.jpg)
+![Photo taken by me during field work](photos/pro_banner.jpg)
 
 ---
 
@@ -33,6 +33,7 @@ Nature is beautiful and providing, and I still hold onto the importance of under
 
 ## Personal life
 
+![Ducks in Switzerland](photos/per_banner2.jpg)
 
 
 :::
