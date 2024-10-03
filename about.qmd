@@ -6,7 +6,7 @@ title: "About Me"
 
 ## Professional Life
 
-![Photo taken by me during field work](banner.jpg)
+![Photo taken by me during field work](photos/banner.jpg)
 
 Lakes, streams, and the ocean have always captivated me, and for as long as I can remember, being in these environments have scratched a part of my brain like nothing else ever has. Going to the aquarium as a child, seeing miniature versions of these ecosystems, and witnessing how perfectly our planet sets up homes and roles for fish to fill was incredible to me. Fast forward to majoring in aquatic biology in undergrad at the University of California, Santa Barbara: learning more about general and aquatic ecology made me realize how interconnected our world is, and our natural planet is just composed of the same principles over different landscapes. Nature repeats itself in different forms, and understanding the underlying concepts of how living things interact with the physical world can explain a multitude of patterns we see from the sea to land (for some reason, I remember the intermediate disturbance hypothesis being so fascinating to me specifically). The only way to preserve our beautiful planet is to understand how it functions.
 
@@ -15,11 +15,11 @@ After taking a biometry course and working in a research lab at UCSB, I became v
 Nature is beautiful and providing, and I still hold onto the importance of understanding our environment to learn how to use our resources responsibly and preserve our planet for future generations to enjoy. I hope to continue to use my experiences in research, data science, and biology to ultimately help others better understand our natural world and assist in making informed decisions about future research and conservation efforts. I am also always interested in learning more about how to apply data in novel, helpful ways to expand our field of knowledge!
 
 ::: {layout="[[1,1], [1]]"}
-![I spent a lot of time in the field while working in the lab. We find a lot of bullfrogs while night sampling!](frog.jpg)
+![I spent a lot of time in the field while working in the lab. We find a lot of bullfrogs while night sampling!](photos/frog.jpg)
 
-![The tiniest Bufo Boreas you will ever see!](toad.jpg)
+![The tiniest Bufo Boreas you will ever see!](photos/toad.jpg)
 
-![The cows are my favorite part about field work](cow.jpg)
+![The cows are my favorite part about field work](photos/cow.jpg)
 :::
 
 ## Personal life
