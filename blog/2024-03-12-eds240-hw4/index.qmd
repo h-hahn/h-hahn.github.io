@@ -371,7 +371,7 @@ dev.off()
 
 #### Here is my final visualization for a general audience (I had to do some editing in canva):
 
-![](plot1_new.png){fig-alt=""} 
+![](plot1_new.jpg){fig-alt=""} 
 
 ## Plot 2: publication
 
