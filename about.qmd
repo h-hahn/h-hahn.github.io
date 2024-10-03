@@ -15,7 +15,7 @@ After taking a biometry course and working in a research lab at UCSB, I became v
 Nature is beautiful and providing, and I still hold onto the importance of understanding our environment to learn how to use our resources responsibly and preserve our planet for future generations to enjoy. I hope to continue to use my experiences in research, data science, and biology to ultimately help others better understand our natural world and assist in making informed decisions about future research and conservation efforts. I am also always interested in learning more about how to apply data in novel, helpful ways to expand our field of knowledge!
 
 ::: {layout="[[1,1], [1]]"}
-![I spent a lot of time in the field while working in the lab. We find a lot of bullfrogs while night sampling!](photos/frog.jpg)
+![I spent a lot of time in the field while working in the lab. We find a lot of bullfrogs while night sampling!](photos/bullfrog.jpg)
 
 ![The tiniest Bufo Boreas you will ever see!](photos/toad.jpg)
 
