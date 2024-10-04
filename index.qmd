@@ -19,8 +19,8 @@ about:
 
 ## Hi, my name is Hope! 
 
-Welcome to my little corner of the internet! 
-
 I am a recent graduate from UCSB's Bren School of Environmental Science & Management, where I achieved a Master's degree in Environmental Data Science. I am passionate about data driven solutions to environmental problems, and I love biology and research. 
 
-Please have a look around to see previous projects I've completed and learn more about me. Enjoy!
+Feel free to have a look around to see previous projects I've completed and learn more about me. Enjoy!
+
+P.S. This website was created using Quarto in RStudio and is not optimized for mobile use, so some pages might look wonky on a phone!
