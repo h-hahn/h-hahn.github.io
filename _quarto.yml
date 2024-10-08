@@ -18,8 +18,7 @@ website:
 format:
   html:
     theme: simplex
-      #light:
-      #dark: cyborg
+    include-in-header: header.html
     backgroundcolor: "#fafbfb"
     css: styles.css
     toc: true
