@@ -1,5 +1,5 @@
 ---
-title: "HOPE HAHN"
+title: "Hope Hahn"
 image: photos/hope.jpeg
 toc: false
 about:

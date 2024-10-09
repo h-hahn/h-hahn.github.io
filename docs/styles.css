@@ -1,6 +1,6 @@
 /* css styles */
 
-/* font for website */
+/* font for website --------------------------------------------- */
 body {
   font-family: 'Nunito Sans', sans-serif;
 }
@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Nunito Sans', sans-serif;
 }
 
-/* custom about me button */
+/* custom about me button ----------------------------------------- */
 .custom-btn {
   background-color: #6c99b8;  /* Change button background color */
   color: white;               /* Change button text color */
@@ -20,3 +20,38 @@ h1, h2, h3, h4, h5, h6 {
   background-color: white;  /* Button color on hover */
   color: #6c99b8;               /* Text color on hover */
 }
+
+
+/* center navbar text -------------------------------------------- */
+.navbar {
+  justify-content: center; /* Center the navbar items */
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  justify-content: center; /* Center the items in the navbar */
+  width: 100%; /* Ensure full width for centering */
+}
+
+.navbar .navbar-nav .nav-link {
+  margin: 0 15px; /* Adjust the spacing between links */
+}
+
+.navbar {
+    border: none !important; /* Remove border */
+    box-shadow: none !important; /* Remove shadow */
+}
+
+
+/* Change the background color of the header ------------------------------------------- */
+.navbar {
+    background-color: #fafbfb !important; /* Replace with your desired color */
+}
+
+/* Add border to the body --------------------------*/
+body {
+    border: 15px solid #d6dbe1; /* Change the color and thickness as needed */
+    padding: 20px; /* Add padding to prevent content from touching the border */
+}
+
+
