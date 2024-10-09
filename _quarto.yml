@@ -6,12 +6,13 @@ website:
   title: "Hope Hahn"
   favicon: logo.jpg
   navbar:
+    background: primary
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
       - href: blog.qmd
-        text: Blog
+        text: Works
       - href: resources.qmd
         text: Resources
 

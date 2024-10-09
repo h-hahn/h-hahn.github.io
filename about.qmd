@@ -1,6 +1,8 @@
 ---
-title: "About Me"
+toc: false
 ---
+
+# **About Me**
 
 ::: {.panel-tabset}
 
