@@ -7,14 +7,12 @@ about:
   image-shape: rounded
   image-width: 20em
   links: 
-    - text: LinkedIn
-      href: https://www.linkedin.com/in/hope-hahn/
-      icon: linkedin
-    - text: GitHub
-      href: https://github.com/h-hahn
-      icon: github
-    - text: Email
-      href: mailto:hmhahn19@gmail.com
+  - href: https://www.linkedin.com/in/hope-hahn/
+    icon: linkedin
+  - href: https://github.com/h-hahn
+    icon: github
+  - href: mailto:hmhahn19@gmail.com
+    icon: envelope
 ---
 
 ## Hi, my name is Hope! 
@@ -24,3 +22,5 @@ I am a recent graduate from UCSB's Bren School of Environmental Science & Manage
 Feel free to have a look around to see previous projects I've completed and learn more about me. Enjoy!
 
 P.S. This website was created using Quarto in RStudio and is not optimized for mobile use, so some pages might look wonky on a phone!
+
+[Learn more about me](about.qmd){.btn .custom-btn .btn role="button" data-toggle="tooltip" title="click here to learn more about me!"}

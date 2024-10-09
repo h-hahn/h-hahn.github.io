@@ -1,8 +1,22 @@
 /* css styles */
+
+/* font for website */
 body {
   font-family: 'Montserrat', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
+}
+
+/* custom about me button */
+.custom-btn {
+  background-color: #6c99b8;  /* Change button background color */
+  color: white;               /* Change button text color */
+  border: 2px solid #6c99b8;   /* Change button border color */
+}
+
+.custom-btn:hover {
+  background-color: white;  /* Button color on hover */
+  color: #6c99b8;               /* Text color on hover */
 }

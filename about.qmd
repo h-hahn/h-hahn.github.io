@@ -37,21 +37,26 @@ Nature is beautiful and providing, and I still hold onto the importance of under
 
 ---
 
-In my personal life, I enjoy trying new hobbies and always try to find joy in the little things. For one, I love taking photos of duck pairs and have a large collection  of duck friends (see photo above!). I have had my fun with painting, camping, crocheting, and I am always excited to try new crafts. In this moment of time, I have been spending a lot of my time hiking, gardening, and running! 
+In my personal life, I enjoy trying new hobbies and always try to find joy in the little things. For one, I love taking photos of duck pairs and have a large collection of duck friends (see photo above!). I would say my main joys in life come from animals and existing outside, but I also have fun with my indoor hobbies such as painting, and crocheting. In this moment of time, I have been spending a lot of my time hiking, growing vegetables, and running!
 
 ---
 
-Little photos I've taken of things I love <3:
+<div style="text-align: center;">
+  <strong>Little photos I've taken of things I love <3:</strong>
+</div>
 
-::: {layout="[[1,1], [1], [1]]" style="padding-left: 100px; padding-right: 100px;"}
-
-![I am not very good at growing from seed but I try](photos/plant.jpg)
-
-![Canoeing and camping at the Colorado River](photos/canoe.jpg)
+::: {layout="[[1,1], [1,1], [1,1]]" style="padding-left: 50px; padding-right: 50px;"}
 
 ![Lake Geneva - I always love a good body of water!](photos/lake.jpg)
 
 ![Backpacking in Joshua Tree](photos/backpack.jpg)
 
-:::
+![Hiking in Santa Barbara](photos/hikes.jpg)
+
+![Cows in the field](photos/cows2.jpg)
+
+![Canoeing and camping at the Colorado River](photos/canoe2.jpg)
+
+![The views from fieldwork](photos/fieldwork.jpg)
+::: 
 :::
