@@ -22,12 +22,16 @@ Nature is beautiful and providing, and I still hold onto the importance of under
   <strong>A little photo gallery :)</strong>
 </div>
 
-::: {layout="[[1,1], [1]]" style="padding-left: 100px; padding-right: 100px;"}
+::: {layout="[[1,1], [1], [1,1]]" style="padding-left: 100px; padding-right: 100px;"}
 ![Gathering samples from bullfrogs in the field](photos/bullfrog.jpg)
 
 ![The tiniest Bufo Boreas you will ever see!](photos/toad.jpg)
 
 ![The cows are my favorite part about field work](photos/cow.jpg)
+
+![Swabbing some little guys](photos/newt.jpg)
+
+![Bullfrog tadpole!](photos/hugetad.jpg)
 
 :::
 
