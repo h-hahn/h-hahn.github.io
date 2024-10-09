@@ -22,6 +22,12 @@ Nature is beautiful and providing, and I still hold onto the importance of under
   <strong>A little photo gallery :)</strong>
 </div>
 
+
+<div style="text-align: center;">
+<small>Three years of working in a lab came with a lot of field work! Here are some highlights.</small>
+</div>
+
+
 ::: {layout="[[1,1], [1], [1,1]]" style="padding-left: 100px; padding-right: 100px;"}
 ![Gathering samples from bullfrogs in the field](photos/bullfrog.jpg)
 
