@@ -8,6 +8,6 @@ listing:
 toc: false 
 ---
 
-Here is a collection of selected previous projects (mostly spatial and statistical analyses) I have done!
+Here is a small selection of projects (mostly spatial and statistical analyses) I have done!
 
 ---
