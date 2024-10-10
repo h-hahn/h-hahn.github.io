@@ -6,7 +6,6 @@ website:
   title: "Hope Hahn"
   favicon: logo.jpg
   navbar:
-    background: primary
     left:
       - href: index.qmd
         text: Home
