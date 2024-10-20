@@ -1,5 +1,5 @@
 ---
-title: Works
+title: Work Blog
 listing:
   contents: blog
   type: grid
