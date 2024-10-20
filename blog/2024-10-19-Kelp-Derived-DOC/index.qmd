@@ -1,0 +1,23 @@
+---
+title: "Kelp Derived DOC and Nutrients Influence Bacterial Growth in and Biodiversity in the Santa Barbara Channel"
+description: "An experiment to analyze how kelp derived DOC and nutrients influence microbial communities in the SB Channel"
+author:
+  - name: Hope Hahn
+    url: https://h-hahn.github.io/
+date: 10-19-2024
+categories: [Quarto, R]
+citation:
+  url: https://h-hahn.github.io/blog/2024-10-19-Kelp-Derived-DOC
+image: kelp.jpeg
+---
+
+I wrote this report for an experiment I completed in a marine microbiology lab in December 2021. 
+
+```{=html}
+<object
+    <p>If you are not able to view the PDF file, you can download it <a href="kelp-report.pdf">here.</a></p>
+</object>
+```
+
+![](kelp-report.pdf){width=700px height=480px}
+
