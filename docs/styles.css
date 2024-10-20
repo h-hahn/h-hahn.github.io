@@ -21,6 +21,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #6c99b8;               /* Text color on hover */
 }
 
+/* Change the hover color of buttons -----------------------------*/
+.btn:hover {
+    background-color: white !important; /* Replace with your desired hover color */
+    border-color: #6c99b8 !important;     /* Optionally, change the border color */
+}
 
 /* center navbar text -------------------------------------------- */
 .navbar {
@@ -48,3 +53,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+html {
+  background-color: #d6dbe1; /* Change this to your desired background color */
+}
+
+
+body {
+  background-color: #fafbfb;  /* Color for the visible content area */
+}

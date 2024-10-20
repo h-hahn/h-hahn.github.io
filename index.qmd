@@ -13,7 +13,7 @@ about:
   - href: https://github.com/h-hahn
     icon: github
   - href: mailto:hmhahn19@gmail.com
-    icon: envelope
+    icon: envelope-fill
 ---
 
 ## Hi, my name is Hope! 
