@@ -1,6 +1,12 @@
 ---
 title: "HW4 - Looking at change in benthic structure on Moorea Coral Reefs"
+description: "Final project for data visualization course - three visualizations for three different audiences."
+author:
+  - name: Hope Hahn
+    url: https://h-hahn.github.io/
+    affiliation: Master of Environmental Data Science Program
 format: html
+date: 03-12-2024
 code-fold: true
 image: plot1_new.jpg
 ---
@@ -22,7 +28,7 @@ library(showtext)
 
 This purpose of this assignment is to create three visualizations to answer a question about Moorea coral reefs (MCR) for a general non-scientific audience, a publication, and a presentation.
 
-**Note: ggradar was not compatible with updated R versions so all of the ggradar code is commented out now, resulting graph is still shown.
+**Note: Upon revisiting this blog post months later, ggradar has not been updated and was not compatible with updated R versions so all of the ggradar code is commented out now, but the resulting graph is still shown.
 
 #### The Data
 
@@ -372,7 +378,7 @@ benthic_data_presentation <- benthic_data_clean %>%
 # dev.off()
 ```
 
-#### Here is my final visualization for a general audience (I had to do some editing in canva):
+#### Here is my final visualization for a general audience (I did some editing in canva):
 
 ![](plot1_new.jpg){fig-alt=""} 
 
@@ -542,4 +548,4 @@ I tried to add more contrast in the text by bolding and not bolding to make the 
 
 ***Applying a DEI Lens to Your Design***
 
-Because my data handles very objective environmental data, I did not consider a lot about how this data is represented from a DEI lens. This data is not directly portraying any communities or people, and the questions I posed for this assignment, is very observational and I did not see it as affecting any individuals or communities negatively. I am open to other thoughts on this point of view though!
+Because my data handles very objective environmental data, I did not do a lot to consider how this data is represented from a DEI lens. This data is not directly portraying any communities or people, and the questions I posed for this assignment, is very observational and I did not see it as affecting any individuals or communities negatively. I am open to other thoughts on this point of view though!

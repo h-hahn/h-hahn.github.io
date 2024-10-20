@@ -5,9 +5,8 @@ author:
   - name: Hope Hahn
     url: https://h-hahn.github.io/
     affiliation: Master of Environmental Data Science Program
-    affiliation-url: https://ucsb-meds.github.io/
 date: 12-10-2023
-categories: [Quarto, R, MEDS]
+categories: [Quarto, MEDS]
 citation:
   url: https://h-hahn.github.io/blog/2023-12-10-bias-in-ecology
 format: 

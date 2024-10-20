@@ -4,6 +4,7 @@ description: "In this analysis, I begin to explore Bd infection in tadpoles"
 author:
   - name: Hope Hahn
 date: 12-14-2023
+categories: [Quarto, R, MEDS]
 format: 
   html: 
     code-fold: true
