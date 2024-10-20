@@ -6,6 +6,7 @@ author:
     url: https://h-hahn.github.io/
     affiliation: Master of Environmental Data Science Program
 format: html
+categories: [Quarto, R]
 date: 03-12-2024
 code-fold: true
 image: plot1_new.jpg
@@ -28,7 +29,7 @@ library(showtext)
 
 The purpose of this assignment is to create three visualizations to answer a question about Moorea coral reefs (MCR) for a general non-scientific audience, a publication, and a presentation.
 
-**Note: Upon revisiting this blog post months later, ggradar has not been updated and was not compatible with updated R versions so all of the ggradar code is commented out now, but the resulting graph is still shown.
+**Note: Upon revisiting this blog post months later, ggradar has not been updated and was not compatible with the updated R version, so all of the ggradar code is commented out now. The resulting graph is still shown.
 
 #### The Data
 
