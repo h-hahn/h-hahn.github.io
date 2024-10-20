@@ -26,7 +26,7 @@ library(showtext)
 
 ------------------------------------------------------------------------
 
-This purpose of this assignment is to create three visualizations to answer a question about Moorea coral reefs (MCR) for a general non-scientific audience, a publication, and a presentation.
+The purpose of this assignment is to create three visualizations to answer a question about Moorea coral reefs (MCR) for a general non-scientific audience, a publication, and a presentation.
 
 **Note: Upon revisiting this blog post months later, ggradar has not been updated and was not compatible with updated R versions so all of the ggradar code is commented out now, but the resulting graph is still shown.
 
