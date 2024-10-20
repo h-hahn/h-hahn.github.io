@@ -1,6 +1,6 @@
 ---
-title: "My first blog post"
-description: "this is my short description"
+title: "My first blog post!"
+description: "Introducing my work blog"
 author:
   - name: Hope Hahn
     url: https://h-hahn.github.io/
@@ -13,4 +13,10 @@ citation:
 image: myimage.jpg
 ---
 
-Hi, this is blog post.
+Welcome to my blog! This tab of my website will keep a collection of projects that I have completed in the form of blog posts. Most of these posts were final projects from courses that I took while completing my Master's degree in Environmental Data Science at the Bren School of Environmental Science & Management, but I will try to continue to update this page with new posts as I develop in my career! 
+
+Have a look around, read through some of my analyses, and enjoy!
+
+Thanks for being here :)
+
+- Hope
