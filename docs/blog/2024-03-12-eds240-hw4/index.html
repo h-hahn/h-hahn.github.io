@@ -218,7 +218,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<hr>
 <p>The purpose of this assignment is to create three visualizations to answer a question about Moorea coral reefs (MCR) for a general non-scientific audience, a publication, and a presentation.</p>
 <p>**Note: Upon revisiting this blog post months later, ggradar has not been updated and was not compatible with the updated R version, so all of the ggradar code is commented out now. The resulting graph is still shown.</p>
 <section id="the-data" class="level4">
@@ -243,7 +242,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="data-preparation" class="level2">
 <h2 class="anchored" data-anchor-id="data-preparation">Data Preparation</h2>
-<hr>
 <p>This is the code that I used to clean and prepare the data for plotting.</p>
 <p><strong><em>Load in and Clean Data</em></strong></p>
 <div class="cell">
@@ -375,7 +373,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="plot-1-general-audience" class="level2">
 <h2 class="anchored" data-anchor-id="plot-1-general-audience">Plot 1: general audience</h2>
-<hr>
 <div class="cell">
 <details>
 <summary>Code</summary>
@@ -578,7 +575,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="plot-2-publication" class="level2">
 <h2 class="anchored" data-anchor-id="plot-2-publication">Plot 2: publication</h2>
-<hr>
 <div class="cell">
 <details>
 <summary>Code</summary>
@@ -650,7 +646,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="plot-3-presentation" class="level2">
 <h2 class="anchored" data-anchor-id="plot-3-presentation">Plot 3: presentation</h2>
-<hr>
 <div class="cell">
 <details>
 <summary>Code</summary>
@@ -709,9 +704,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="discussion-on-plot-choices" class="level2">
 <h2 class="anchored" data-anchor-id="discussion-on-plot-choices">Discussion on Plot Choices</h2>
-<hr>
 <p><strong><em>Graphic Form</em></strong></p>
-<p>For the graph geared toward the general audience, I decided to create radar charts. I think that radar charts look very interesting and draw the eye. I think a line chart for a plot geared toward a general audience would have looked too plain and “boring”. I think because line charts can be seen as the typical “scientific” or “math-y” types of plots it might seem less interesting to people. Even though radar charts may not be as intuitive as line charts or bar charts, which are more common, I think they add an artistic element to a visualization. A lot of my favorite examples I’ve seen so far have been a series of radar charts. Because this visualization can look slightly more artistic than for a publication or presentation, I stuck to a set of radar charts.</p>
+<p>For the graph geared toward the general audience, I decided to create radar charts. I think that radar charts look very interesting and draw the eye. A line chart for a plot geared toward a general audience would have looked too plain and “boring”. Because line charts can be seen as the typical “scientific” or “math-y” types of plots it might seem less interesting to people. Even though radar charts may not be as intuitive as line charts or bar charts, which are more common, they add an artistic element to a visualization. A lot of my favorite examples I’ve seen so far have been a series of radar charts. Because this visualization can look slightly more artistic than for a publication or presentation, I stuck to a set of radar charts.</p>
 <p>While the radar charts for a general audience show an overall result of 2005 to 2023 rather than all the years between. I wanted to use a time series line chart for the publication because scientists would be able to see more nuanced trends throughout all the years. Rather than from just 2005 and 2023. The accompanying paper would explain these patterns, perhaps indicating other global factors that may be driving the trends. They would be able to reference these plots by site and year.</p>
 <p>For the presentation graph, I wanted to do something similar to the publication graph, but instead of facet wrapping by site (this makes it harder to look at quickly), I decided to do the average trend over all sites for one large time series graph.</p>
 <p><strong><em>Text</em></strong></p>
@@ -719,15 +713,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><strong><em>Themes</em></strong></p>
 <p>All plots are plain, and only the radar charts have gridlines. I didn’t think that the gridlines were necessary since the plot portrays general trends, and it is not too important to be able to match up very specific years to points. Plain backgrounds make plots cleaner and very easy to read. I adjusted the padding for all graphs to increase distance between text and other graphs. This makes graphs easier to interpret without elements being too squished together. Title texts were all bolded to draw more attention and stand apart from the rest of the graph more. I used Libre Baskerville for title text and Source Sans 3 for body text because I found this pairing from fontpair and thought that it looked nice and classy.</p>
 <p><strong><em>Colors</em></strong></p>
-<p>The colors I chose for the radar chart were a muted blue and red because I think these are very contradictory and it is easy to distinguish them from each other. I did not use the default red and blue because I think these are very bright and hurt the eyes sometimes. For the other plots, I chose coral color to represent the coral lines and used a green to represent the algae lines. I think this is intuitive to most people since most people think algae is green and the color coral is self explanatory. I liked that the colors matched what it was representing. All text is black or dark grey, which are easy to read and not too distracting.</p>
+<p>The colors I chose for the radar chart were a muted blue and red because these are very contradictory and it is easy to distinguish them from each other. I did not use the default red and blue because these are very bright and hurt the eyes sometimes. For the other plots, I chose coral color to represent the coral lines and used a green to represent the algae lines. This is intuitive to most people since most people think algae is green and the color coral is self explanatory. I liked that the colors matched what it was representing. All text is black or dark grey, which are easy to read and not too distracting.</p>
 <p><strong><em>Typography</em></strong></p>
-<p>I touched on fonts I used in the section above, but ultimately I used a font pairing that I really liked from fontpair. I like serif fonts being titles and sans-serif for body text so I followed this pattern. I used the same font combination for all plots because I think it looks clean and classy.</p>
+<p>I touched on fonts I used in the section above, but ultimately I used a font pairing that I really liked from fontpair. I like serif fonts being titles and sans-serif for body text so I followed this pattern. I used the same font combination for all plots because it looks clean and classy.</p>
 <p><strong><em>General Design</em></strong></p>
 <p>All plots with multiple sites are ordered numerically since all plots contain numbers in their names. I added padding between most elements to make sure that nothing was too crowded and to make it easier to look at. For the presentation graph, I also made the linewidth and text thicker to make all elements easier to see. I touched on some of the general design elements above as well.</p>
 <p><strong><em>Contextualizing Your Data</em></strong></p>
 <p>Most of the contextualization of my data is in the first two plots with annotations and captions. I did not go into any technical detail for plot 1 because it is for a general audience, and for plots 2 and 3, I figured that the explanation of data/wrangling/workflow would be described in the paper and during a presentation. I tried to keep the last one as simple as possible because I figured that this graph would be supplemented by verbal explanations and descriptions as well.</p>
 <p><strong><em>Centering Your Primary Message</em></strong></p>
-<p>All graphs are right in the middle of all text. I think this is the first thing that your eyes look at, and then you look around for more information. I think the trends that are on the graphs are the main message, and then the viewer can look at the surrounding text for more context</p>
+<p>All graphs are right in the middle of all text. This is the first thing that your eyes look at, and then you look around for more information. The trends that are on the graphs are the main message, and then the viewer can look at the surrounding text for more context</p>
 <p><strong><em>Considering Accessibility</em></strong></p>
 <p>I tried to add more contrast in the text by bolding and not bolding to make the main text easier to read. Unfortunately, I believe that the colors that I used for the last two plots were not color blind friendly. To make up for this, I used different linetypes for the two groups, so if someone is not able to distinguish the colors, they would be able to distinguish the line types.</p>
 <p><strong><em>Applying a DEI Lens to Your Design</em></strong></p>

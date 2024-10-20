@@ -25,8 +25,6 @@ library(showtext)
 
 ## Overview
 
-------------------------------------------------------------------------
-
 The purpose of this assignment is to create three visualizations to answer a question about Moorea coral reefs (MCR) for a general non-scientific audience, a publication, and a presentation.
 
 **Note: Upon revisiting this blog post months later, ggradar has not been updated and was not compatible with the updated R version, so all of the ggradar code is commented out now. The resulting graph is still shown.
@@ -54,8 +52,6 @@ The question I am asking with this data is whether benthic structure on MCR LTER
 -   Discussion on plot choices
 
 ## Data Preparation
-
-------------------------------------------------------------------------
 
 This is the code that I used to clean and prepare the data for plotting.
 
@@ -183,8 +179,6 @@ benthic_data_presentation <- benthic_data_clean %>%
 ```
 
 ## Plot 1: general audience
-
-------------------------------------------------------------------------
 
 ```{r}
 # make LTER plots for final plot ----
@@ -385,8 +379,6 @@ benthic_data_presentation <- benthic_data_clean %>%
 
 ## Plot 2: publication
 
-------------------------------------------------------------------------
-
 ```{r}
 # color palette
 coral_colors <- c("#54780a", "coral")
@@ -452,8 +444,6 @@ dev.off()
 
 ## Plot 3: presentation
 
-------------------------------------------------------------------------
-
 ```{r}
 # plot time series of substrate cover
 plot3 <- ggplot(benthic_data_presentation) +
@@ -505,11 +495,10 @@ dev.off()
 
 ## Discussion on Plot Choices
 
----
 
 ***Graphic Form***
 
-For the graph geared toward the general audience, I decided to create radar charts. I think that radar charts look very interesting and draw the eye. I think a line chart for a plot geared toward a general audience would have looked too plain and “boring”. I think because line charts can be seen as the typical “scientific” or “math-y” types of plots it might seem less interesting to people. Even though radar charts may not be as intuitive as line charts or bar charts, which are more common, I think they add an artistic element to a visualization. A lot of my favorite examples I’ve seen so far have been a series of radar charts. Because this visualization can look slightly more artistic than for a publication or presentation, I stuck to a set of radar charts. 
+For the graph geared toward the general audience, I decided to create radar charts. I think that radar charts look very interesting and draw the eye. A line chart for a plot geared toward a general audience would have looked too plain and “boring”. Because line charts can be seen as the typical “scientific” or “math-y” types of plots it might seem less interesting to people. Even though radar charts may not be as intuitive as line charts or bar charts, which are more common, they add an artistic element to a visualization. A lot of my favorite examples I’ve seen so far have been a series of radar charts. Because this visualization can look slightly more artistic than for a publication or presentation, I stuck to a set of radar charts. 
 
 While the radar charts for a general audience show an overall result of 2005 to 2023 rather than all the years between. I wanted to use a time series line chart for the publication because scientists would be able to see more nuanced trends throughout all the years. Rather than from just 2005 and 2023. The accompanying paper would explain these patterns, perhaps indicating other global factors that may be driving the trends. They would be able to reference these plots by site and year.
 
@@ -525,11 +514,11 @@ All plots are plain, and only the radar charts have gridlines. I didn’t think 
 
 ***Colors***
 
-The colors I chose for the radar chart were a muted blue and red because I think these are very contradictory and it is easy to distinguish them from each other. I did not use the default red and blue because I think these are very bright and hurt the eyes sometimes. For the other plots, I chose coral color to represent the coral lines and used a green to represent the algae lines. I think this is intuitive to most people since most people think algae is green and the color coral is self explanatory. I liked that the colors matched what it was representing. All text is black or dark grey, which are easy to read and not too distracting. 
+The colors I chose for the radar chart were a muted blue and red because these are very contradictory and it is easy to distinguish them from each other. I did not use the default red and blue because these are very bright and hurt the eyes sometimes. For the other plots, I chose coral color to represent the coral lines and used a green to represent the algae lines. This is intuitive to most people since most people think algae is green and the color coral is self explanatory. I liked that the colors matched what it was representing. All text is black or dark grey, which are easy to read and not too distracting. 
 
 ***Typography***
 
-I touched on fonts I used in the section above, but ultimately I used a font pairing that I really liked from fontpair. I like serif fonts being titles and sans-serif for body text so I followed this pattern. I used the same font combination for all plots because I think it looks clean and classy.
+I touched on fonts I used in the section above, but ultimately I used a font pairing that I really liked from fontpair. I like serif fonts being titles and sans-serif for body text so I followed this pattern. I used the same font combination for all plots because it looks clean and classy.
 
 ***General Design***
 
@@ -541,7 +530,7 @@ Most of the contextualization of my data is in the first two plots with annotati
 
 ***Centering Your Primary Message***
 
-All graphs are right in the middle of all text. I think this is the first thing that your eyes look at, and then you look around for more information. I think the trends that are on the graphs are the main message, and then the viewer can look at the surrounding text for more context
+All graphs are right in the middle of all text. This is the first thing that your eyes look at, and then you look around for more information. The trends that are on the graphs are the main message, and then the viewer can look at the surrounding text for more context
 
 ***Considering Accessibility***
 
