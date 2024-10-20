@@ -11,7 +11,7 @@ website:
         text: Home
       - href: about.qmd
       - href: blog.qmd
-        text: Works
+        text: Blog
       - href: resources.qmd
         text: Resources
 
@@ -19,7 +19,7 @@ format:
   html:
     theme: simplex
     include-in-header: header.html
-    backgroundcolor: "#fafbfb"
+   # backgroundcolor: "#fafbfb"
     css: styles.css
     toc: true
     page-layout: full
