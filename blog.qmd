@@ -8,6 +8,8 @@ listing:
 toc: false 
 ---
 
-Here is a small selection of projects I have done!
+Here is a small selection of projects I have done! 
+
+p.s. Code chunks are folded for projects that contain code, so just click on them to expand them :)
 
 ---
